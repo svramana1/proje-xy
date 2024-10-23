@@ -1,0 +1,16 @@
+{
+  "name": "acme-shop",
+  "version": "1.0.0",
+  "description": "A simple web application for Acme Shop",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo 'No tests specified' && exit 0",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "author": "ramana",
+  "license": "MIT"
+}
+
