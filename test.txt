@@ -10,3 +10,11 @@ git push -u origin master  # or 'main'
 
 sjmdgnfvd
 
+echo "# proje-xy" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/svramana1/proje-xy.git
+git push -u origin main
+
