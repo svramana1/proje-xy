@@ -1,0 +1,10 @@
+jgc,mnvb
+mkdir my-project
+cd my-project
+git init
+echo "# My Project" >> README.md
+git add README.md
+git commit -m "Initial commit"
+git remote add origin https://github.com/username/repo-name.git
+git push -u origin master  # or 'main'
+
